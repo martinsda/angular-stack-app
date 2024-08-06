@@ -1,0 +1,8 @@
+<p>stack works!</p>
+<div class="container">
+    <h1>Stack Application</h1>
+    <input type="text" [(ngModel)]="stackInput" name="stackInput" placeholder="Enter value">
+    <button (click)="pushToStack()">Push</button>
+    <button (click)="popFromStack()">Pop</button>
+    <div id="stackDisplay">{{ stackDisplay }}</div>
+</div>
